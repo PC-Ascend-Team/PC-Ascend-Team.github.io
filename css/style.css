@@ -1,6 +1,31 @@
 body {
-    background-image: url("/img/G0010326.JPG");
-    -moz-background-image: url("/img/G0010326.JPG");
-    -o-background-image: url("/img/G0010326.JPG");
-    -webkit-background-image: url("/img/G0010326.JPG");
+    background-image: url("../img/G0010326.JPG");
+    -moz-background-image: url("../img/G0010326.JPG");
+    -o-background-image: url("../img/G0010326.JPG");
+    -webkit-background-image: url("../img/G0010326.JPG");
+
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    color: #f5f5f5;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, .5);
+}
+
+.box {
+    background: rgba(0, 0, 0, .5);
+    padding: .1px 20px;
+    border-radius: 5px;
+}
+
+.box a {
+    color: #f5f5f5;
+}
+
+.box a:hover {
+    color: #f5f5f5;
+    text-decoration: underline;
 }
