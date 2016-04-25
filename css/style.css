@@ -1,1 +1,6 @@
-# Empty CSS file for your own CSS
+body {
+    background-image: url("/img/G0010326.JPG");
+    -moz-background-image: url("/img/G0010326.JPG");
+    -o-background-image: url("/img/G0010326.JPG");
+    -webkit-background-image: url("/img/G0010326.JPG");
+}
